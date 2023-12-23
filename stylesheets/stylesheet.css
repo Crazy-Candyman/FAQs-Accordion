@@ -19,12 +19,13 @@
 body {
   min-height: 100vh;
   background-color: var(--light-pink);
-  background-image: url("assets/images/background-pattern-desktop.svg");
+  background-image: url("../assets/images/background-pattern-desktop.svg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: top;
   font-family: "Work Sans", sans-serif;
   display: grid;
+  grid-template-rows: 95% 5%;
   justify-items: center;
   align-items: center;
 }
@@ -36,7 +37,7 @@ body {
   color: var(--dark-purple);
   width: 35rem;
   min-height: 32rem;
-  border-radius: 1rem;
+  border-radius: 1.5rem;
   padding: 2rem;
 }
 
@@ -73,8 +74,7 @@ article p {
 }
 
 .attribution {
-  font-size: 11px;
-  text-align: center;
+  font-size: 1rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
@@ -86,11 +86,19 @@ article p {
   }
 
   body {
-    background-image: url(assets/images/background-pattern-mobile.svg);
+    background-image: url(../assets/images/background-pattern-mobile.svg);
   }
 
   .main-box {
     min-height: 40rem;
+  }
+
+  .main-box h2 {
+    font-size: 1.4rem;
+  }
+
+  .main-box p {
+    font-size: 1.2rem;
   }
 
   button img {
