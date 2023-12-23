@@ -7,8 +7,8 @@ const btn = document.querySelectorAll("article button");
 const icon = document.querySelectorAll("article img");
 const header = document.querySelectorAll("article h2");
 
-const plusIcon = "/assets/images/icon-plus.svg";
-const minusIcon = "/assets/images/icon-minus.svg";
+const plusIcon = "assets/images/icon-plus.svg";
+const minusIcon = "assets/images/icon-minus.svg";
 
 for (let i = 0; i < faqsObjects.length; i++) {
   btn[i].addEventListener("click", ()=> {
