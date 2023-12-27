@@ -14,11 +14,13 @@ for (let i = 0; i < faqsObjects.length; i++) {
   btn[i].addEventListener("click", ()=> {
 
       if (icon[i].getAttribute("src") == plusIcon) {
-        icon[i].src=minusIcon;
+        icon[i].src=minusIcon
+        icon[i].alt = "minus-icon"
         text[i].textContent = faqsObjects[i].answer
       } 
       else {
         icon[i].src=plusIcon;
+        icon[i].alt = "plus-icon"
         text[i].textContent = '';
       }
   })
