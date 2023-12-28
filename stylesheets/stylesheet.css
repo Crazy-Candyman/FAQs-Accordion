@@ -97,6 +97,10 @@ article p {
     font-size: 1.4rem;
   }
 
+  .main-box h2:hover {
+    color: var(--dark-purple);
+  }
+
   .main-box p {
     font-size: 1.2rem;
   }
