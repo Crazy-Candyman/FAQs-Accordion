@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://crazy-candyman.github.io/FAQs-Accordion/)
+- Live Site URL: [FAQ-Accordion](https://crazy-candyman.github.io/FAQs-Accordion/)
 
 ## About the Design
 
