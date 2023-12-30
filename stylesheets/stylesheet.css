@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap");
 
-/*  base styles */
-
+/*  Base Styles */
 :root {
   font-size: 16px;
   --white: hsl(0, 0%, 100%);
@@ -42,7 +41,7 @@ body {
 }
 
 .main-box h1 {
-  font-size: 3.5rem;
+  font-size: 3.7rem;
   margin-bottom: 1.2rem;
 }
 
@@ -80,9 +79,10 @@ article p {
   color: hsl(228, 45%, 44%);
 }
 
+/* Mobile Responsive Media Query */
 @media all and (max-width: 600px) {
   :root {
-    font-size: 10px;
+    font-size: 11px;
   }
 
   body {
@@ -90,7 +90,8 @@ article p {
   }
 
   .main-box {
-    min-height: 40rem;
+    min-height: 65%;
+    max-width: 90%;
   }
 
   .main-box h2 {
@@ -102,7 +103,8 @@ article p {
   }
 
   .main-box p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    margin-top: 0.2rem;
   }
 
   button img {
